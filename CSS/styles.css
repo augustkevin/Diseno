@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Fira Sans', sans-serif;
+} */
+
+
+.maincontainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/3d-rendering-large-modern-contemporary-house-wood-concrete_190619-1484.jpg);
+    background-size: cover;
+}
+
+
+.opacity{
+  height: 30vh;
+  width: 360%;
+  background-color: rgb(113, 243, 20);
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -270px;
+}
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+    height: 12vh;
+    width: 100%;
+    background: linear-gradient(to right, black, rgb(254, 237, 0));
+}
+
+
+.navbar h1{
+    color: white;
+    font-size: 18px;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+    margin-right: 690px;
+    margin-top: 10px;
+}
+
+
+.listItem a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li a:hover{
+  color: rgb(113, 243, 20);
+}
+
+.listItem{
+    display: inline;
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left:15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.card{
+  height: 30vh;
+  width: 50%;
+  background-color: transparent;
+  border: 5px black;
+  top: 350px;
+  left: 580px;
+  position: absolute;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-body h5{
+  font-size: 35px;
+  color: white;
+}
+
+.card-body button a{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 237, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    top: 500px;
+    left: 900px;
+}
+
+.button a:hover{
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.contnet{
+    position: relative;
+}
+
+
+.picture{
+   display: flex;
+}
+
+
+.picture img{
+    position: absolute;
+    top: 150px;
+    height: 100vh;
+    width: 60%;
+    left: -10px;
+}
+
+
+.picture p{
+    color: black;
+    width: 550px;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    font-size: 20px;
+}
+
+.servicepage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(254, 237, 0);
+    position: relative;
+}
+
+
+.services h1{
+  position: absolute;
+    color: white;
+    font-size: 36px;
+    left: 600px;
+    bottom: 610px;
+}
+
+
+.blog-card{
+  position: absolute;
+  height: 480px;
+  width: 1200px;
+  max-width: 850px;
+  margin: auto;
+  border-radius: 25px;
+  background: linear-gradient(147deg, rgb(254, 237, 0)  0%, rgb(113, 243, 20) 80%);
+  box-shadow: 0px 10px 50px rgba(252,56,56,.3);
+  top: 170px;
+  left: 40px;
+}
+.inner-part{
+  position: absolute;
+  display: flex;
+  height: 360px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+}
+#imgTap:checked ~ .inner-part {
+  padding: 0;
+  transition: .1s ease-in;
+}
+.inner-part .img{
+  height: 260px;
+  width: 260px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 2px 3px 15px rgba(252,56,56,.1);
+}
+#imgTap:checked ~ .inner-part .img{
+  height: 370px;
+  width: 850px;
+  z-index: 99;
+  margin-top: 10px;
+  transition: .3s .2s ease-in;
+}
+.img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0;
+  transition: .6s;
+}
+#tap-1:checked ~ .inner-part .img-1,
+#tap-2:checked ~ .inner-part .img-2,
+#tap-3:checked ~ .inner-part .img-3{
+  opacity: 1;
+  transition-delay: .2s;
+}
+.content{
+  padding: 0 20px 0 35px;
+  width: 530px;
+  margin-left: 50px;
+  opacity: 0;
+  transition: .6s;
+}
+#imgTap:checked ~ .inner-part .content{
+  display: none;
+}
+#tap-1:checked ~ .inner-part .content-1,
+#tap-2:checked ~ .inner-part .content-2,
+#tap-3:checked ~ .inner-part .content-3{
+  opacity: 1;
+  margin-left: 0px;
+  z-index: 100;
+  transition-delay: .3s;
+}
+.content span{
+  display: block;
+  color: #7b7992;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 500
+}
+.content .title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #0d0925;
+  margin-bottom: 20px;
+}
+.content .text{
+  color: #4e4a67;
+  font-size: 19px;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.content-3 button a{
+  text-decoration: none;
+  color: #fff0e6;
+}
+
+.content-2 button a{
+  text-decoration: none;
+  color: #fff0e6;
+}
+
+.content-1 button a{
+  text-decoration: none;
+  color: #fff0e6;
+}
+
+
+.content button{
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff0e6;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid  rgb(254, 237, 0);
+  background: linear-gradient(147deg, rgb(254, 237, 0)   0%, rgb(104, 101, 101) 94%);
+}
+.content button:hover{
+  background: linear-gradient(147deg, rgb(113, 243, 20)  0%, rgb(254, 237, 0)  74%);
+}
+.sliders{
+  position: absolute;
+  bottom: 25px;
+  left: 65%;
+  transform: translateX(-50%);
+  z-index: 12;
+}
+#imgTap:checked ~ .sliders{
+  display: none;
+}
+.sliders .tap{
+  position: relative;
+  height: 10px;
+  width: 50px;
+  background: #d9d9d9;
+  border-radius: 5px;
+  display: inline-flex;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.sliders .tap:hover{
+  background: #cccccc;
+}
+.sliders .tap:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: -100%;
+  background: linear-gradient(147deg, rgb(254, 237, 0)  80%, rgb(113, 243, 20) 0%);
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform .6s;
+  transform-origin: left;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  display: none;
+}
+#tap-1:checked ~ .sliders .tap-1:before,
+#tap-2:checked ~ .sliders .tap-2:before,
+#tap-3:checked ~ .sliders .tap-3:before{
+  transform: scaleX(1);
+  width: 100%;
+}
+
+
+.pici img{
+  position: absolute;
+  height: 86vh;
+  width: 70%;
+  right: 0px;
+  top: 100px;
+}
+
+/* ======================== SEC HTML=============== */
+
+.bigcontainer{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(113, 243, 20);
+}
+
+
+/* ===========================About============================= */
+
+.about{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(147deg, rgb(254, 237, 0)  20%, rgb(113, 243, 20) 80%);
+}
+
+.about h1{
+  position: absolute;
+  color: white;
+  font-size: 38px;
+  top: 30px;
+  left: 550px;
+}
+
+.image{
+  position: absolute;
+  left: 40px;
+  bottom: -60px;
+  border-radius: 20px 20px 20px;
+  width: 50%;
+  height: 90vh;
+}
+
+.card {
+	margin-top: -80px;
+	margin-left: 100px;
+	width: 250px;
+	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+	height: 300px;
+	border-radius: 5px;
+	backdrop-filter: blur(6px);
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	text-align: center;
+  height: 30vh;
+  width: 50%;
+}
+
+
+/* ==========================Contact us================================= */
+
+.contact{
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(to right, rgb(254, 237, 0), black);
+}
+
+
+
+
+
+
+
+
+
+
+
+ 

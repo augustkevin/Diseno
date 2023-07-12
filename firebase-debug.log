@@ -1,0 +1,95 @@
+[debug] [2022-05-18T09:26:10.174Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T09:26:10.177Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-18T09:26:10.181Z] CLI Version:   10.2.0
+[debug] [2022-05-18T09:26:10.181Z] Platform:      win32
+[debug] [2022-05-18T09:26:10.181Z] Node Version:  v16.14.0
+[debug] [2022-05-18T09:26:10.184Z] Time:          Wed May 18 2022 12:26:10 GMT+0300 (East Africa Time)
+[debug] [2022-05-18T09:26:10.185Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T09:26:10.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T09:26:10.200Z] > authorizing via signed-in user (augustinekevin52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Desktop\Desino homes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-18T09:26:39.519Z] > refreshing access token with scopes: []
+[debug] [2022-05-18T09:26:39.522Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-18T09:26:40.175Z] <<< HTTP RESPONSE 200 {"date":"Wed, 18 May 2022 09:26:41 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-18T09:26:40.194Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-05-18T09:26:41.138Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-05-18T09:26:41.138Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-05-18T09:30:23.549Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T09:30:23.551Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-18T09:30:23.552Z] CLI Version:   10.2.0
+[debug] [2022-05-18T09:30:23.552Z] Platform:      win32
+[debug] [2022-05-18T09:30:23.552Z] Node Version:  v16.14.0
+[debug] [2022-05-18T09:30:23.555Z] Time:          Wed May 18 2022 12:30:23 GMT+0300 (East Africa Time)
+[debug] [2022-05-18T09:30:23.557Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T09:30:23.575Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T09:30:23.575Z] > authorizing via signed-in user (augustinekevin52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Desktop\Desino homes
+
+[debug] [2022-05-18T09:31:13.633Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T09:31:13.636Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-18T09:31:13.637Z] CLI Version:   10.2.0
+[debug] [2022-05-18T09:31:13.637Z] Platform:      win32
+[debug] [2022-05-18T09:31:13.637Z] Node Version:  v16.14.0
+[debug] [2022-05-18T09:31:13.638Z] Time:          Wed May 18 2022 12:31:13 GMT+0300 (East Africa Time)
+[debug] [2022-05-18T09:31:13.639Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T09:31:13.650Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T09:31:13.651Z] > authorizing via signed-in user (augustinekevin52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Desktop\Desino homes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-18T09:31:45.334Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-05-18T09:31:46.317Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-05-18T09:31:46.317Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project twitter-clone-2-f36ec (twitter clone 2) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
